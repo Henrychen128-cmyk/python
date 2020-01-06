@@ -11,7 +11,7 @@ TNAME = "'GG'"
 VALUES = "'GG'"
 conn = cx_Oracle.connect("apuser", "apuser", "192.168.255.105:1521/orcl")
 cur = conn.cursor()
-sql = 'INSERT INTO NR_DAILY_LOG (TNAME,VALUE) VALUES ('+TNAME+','+VALUES+')'
+sql = '' # oracle sql語句
 print(sql)
 cur = conn.cursor()
 cur.execute(sql)
