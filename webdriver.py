@@ -19,6 +19,5 @@ inputElement.send_keys("test")
 
 inputElement.submit()
 element = browser.find_element_by_name("LC201b")
-
 for i in element:
   print(i)
